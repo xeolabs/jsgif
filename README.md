@@ -48,6 +48,7 @@ Now we need to init the GIFEncoder.
       var encoder = new GIFEncoder();
 
 *If* you are making an animated gif, you need to add the following
+
       encoder.setRepeat(0); //0  -> loop forever
                             //1+ -> loop n times then stop
       encoder.setDelay(500); //go to next frame every n milliseconds
